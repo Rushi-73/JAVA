@@ -10,6 +10,7 @@ class Authentication
 	public static void main(String[] args)throws Exception {
 		
 		Connection con=null;
+		//forming database connection
 		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/user","root","2000");
 
 		if(con==null)
