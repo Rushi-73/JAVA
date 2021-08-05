@@ -9,6 +9,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+//in this class we have created basic program of creating frame using java swing and awt
 class demoframe implements ActionListener
 {
 	JFrame f=new JFrame("Login");
