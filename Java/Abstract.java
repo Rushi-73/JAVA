@@ -1,5 +1,7 @@
 import java.util.*;
-abstract class Abstract
+
+//creating abstract class
+abstract class Abstract 
 {
 	
 	abstract void gun();
