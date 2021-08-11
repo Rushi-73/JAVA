@@ -1,6 +1,6 @@
 class inner_class
 {
-	class inner
+	class inner    //defining inner class
 	{
 		void fun()
 		{
