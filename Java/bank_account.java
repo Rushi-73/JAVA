@@ -41,7 +41,7 @@ class bank_account
  	}
 	public static void main(String[] args) {
 		
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in); //creating object of scanner class
 		bank_account c=new bank_account();
 		int choice;
 		do
@@ -56,7 +56,7 @@ class bank_account
 			switch(choice)
 			{
 				case 1:
-				c.open_account(sc);
+				c.open_account(sc); //sending refrence of scanner class to teke input from console
 				break;
 				case 2:
 				System.out.println("Enter amount you want to deposite");
