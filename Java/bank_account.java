@@ -67,7 +67,7 @@ class bank_account
 				break;
 				case 3:
 				System.out.println("Enter amount you want to withdraw");
-				Console co1=System.console();
+				Console co1=System.console();  //creating object of console class
 				char cr1[]=co1.readPassword();
 				int w=Integer.parseInt(new String(cr1));
 				c.withdraw_money(w);
