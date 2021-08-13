@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.Console;
 
-
+/* This is basic program which include use of scanner and console class to give input */
 class bank_account
 {
 
