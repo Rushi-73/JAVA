@@ -30,7 +30,7 @@ class Armstrong
 		{
 			rem=x%10;
 			x=x/10;
-			total=total+Armstrong.power(rem,m);
+			total=total+Armstrong.power(rem,m);   //calling power function
 		}
 		
 		if(total==n)
