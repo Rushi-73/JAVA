@@ -20,7 +20,7 @@ class Armstrong
 		System.out.println("Enter number");
 		int n=sc.nextInt();
 		int m=0,i,x=n,total=0,rem;
-		while(x!=0)
+		while(x!=0)                         //counting number of digits in given number
 		{
 			x=x/10;
 			m++;
