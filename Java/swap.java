@@ -2,11 +2,11 @@
 
 import java.util.Scanner;
 
-class swap
+class swap 
 {
 	public static void main(String[] args) {
 		
-		int a=Integer.parseInt(args[0]);
+		int a=Integer.parseInt(args[0]); //takinf input from command line and type cast into integer
 		int b=Integer.parseInt(args[1]);
 
 		a=a*b;
