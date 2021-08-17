@@ -9,7 +9,7 @@ class swap
 		int a=Integer.parseInt(args[0]); //takinf input from command line and type cast into integer
 		int b=Integer.parseInt(args[1]);
 
-		a=a*b;
+		a=a*b;      //swaping without third variable
 		b=a/b;
 		a=a/b;
 
