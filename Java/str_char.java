@@ -1,13 +1,13 @@
 //Write a java program to accept one string from user and print all characters from string. (Using BufferedReader class). charAt(i)
 import java.util.Scanner;
-import java.io.InputStreamReader;
+import java.io.InputStreamReader;  
 import java.io.BufferedReader;
 
 class str_char
 {
 	public static void main(String[] args)throws Exception {
 		
-		InputStreamReader is=new InputStreamReader(System.in);
+		InputStreamReader is=new InputStreamReader(System.in);  //creating object of InputStreamReader
 		BufferedReader br=new BufferedReader(is);
 
 		System.out.println("Enter String");
