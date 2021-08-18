@@ -8,7 +8,7 @@ class str_char
 	public static void main(String[] args)throws Exception {
 		
 		InputStreamReader is=new InputStreamReader(System.in);  //creating object of InputStreamReader
-		BufferedReader br=new BufferedReader(is);
+		BufferedReader br=new BufferedReader(is); //creating object of BufferedReader
 
 		System.out.println("Enter String");
 		String str=br.readLine();
