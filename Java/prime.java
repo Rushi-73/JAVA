@@ -9,7 +9,7 @@ class prime
 		int n=sc.nextInt(),f=0;
 		for (int i=2;i<=n/2 ;i++ ) {
 			
-			if(n%i==0)
+			if(n%i==0)                //checking number is not prime
 			{
 				f=1;
 				System.out.println("Number is not prime");
