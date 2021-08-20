@@ -6,7 +6,7 @@ class static_demo
 
 	static int b=fun();
 
-	static int fun()
+	static int fun()  //defining static function
 	{
 		System.out.println("Static Function");
 		return 20;
