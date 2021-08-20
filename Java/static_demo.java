@@ -13,7 +13,7 @@ class static_demo
 	}
 
 	static{
-		System.out.println("Static block 1");
+		System.out.println("Static block 1");   //static method
 	}
 	static{
 		System.out.println("Static block 2");
