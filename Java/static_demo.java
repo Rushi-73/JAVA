@@ -1,8 +1,8 @@
 //Write a java program to illustrate static in java. (Static - block, field, method,inner class, import)
 
-class static_demo
+class static_demo  
 {
-	static int a=10;
+	static int a=10;   //defining static variable
 
 	static int b=fun();
 
