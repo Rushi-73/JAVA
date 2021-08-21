@@ -4,7 +4,7 @@ class Wrapper_classes
 	public static void main(String[] args) {
 			
 			int a=10;
-			Integer i=new Integer(a);
+			Integer i=new Integer(a); //passing integer value to the constructor of Integer class 
 			System.out.println(i);
 			System.out.println(i.toString());//it will print same because toString method is override in Integer class
 		}	
