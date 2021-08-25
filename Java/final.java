@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 final class Final  //cannot inherited
 {
-	final int a=10;
+	final int a=10; //final field
 	final int b;
 	Final()
 	{
