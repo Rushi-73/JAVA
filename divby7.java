@@ -7,7 +7,7 @@ class divby7
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter number to find factorial");
-		int n=sc.nextInt();
+		int n=sc.nextInt(); //taking input from console
 		if(n%7==0)
 		System.out.println("Number is divisible by 7");
 		else
