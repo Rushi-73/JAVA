@@ -24,6 +24,7 @@ class Student_info
          PreparedStatement ps=null;
          PreparedStatement ps1=null;
 
+		//getting input from user
      System.out.println("Please enter rollno");
         int rollno=sc.nextInt();
         System.out.println("Please enter student name");
@@ -36,7 +37,7 @@ class Student_info
         String img_path=sc.next();
         try
         {
-            
+            //simpledateformat class is used to convert given string in specific format
             sdf=new SimpleDateFormat("dd-MM-yyyy");
             if(sdf==null)
             {
