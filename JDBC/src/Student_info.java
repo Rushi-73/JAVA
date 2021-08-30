@@ -14,7 +14,7 @@ class Student_info
 {
 	public static void main(String[] args) {
 
-		Scanner sc=new Scanner(System.in);
+	Scanner sc=new Scanner(System.in);
 
         ResultSet rs=null;
         SimpleDateFormat sdf=null;
@@ -45,6 +45,7 @@ class Student_info
             }
             else
             {
+		    //parse method of simpledateformat class is used to cast into util date format
                java.util.Date ud=sdf.parse(dob);
                long ms=ud.getTime();
               
