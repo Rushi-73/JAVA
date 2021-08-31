@@ -1,5 +1,6 @@
 import java.util.*;
 
+//this class contain all methods of Collection interface
 
 class collection
 {
