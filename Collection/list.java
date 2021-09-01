@@ -2,6 +2,10 @@ import java.util.*;
 
 class list
 {
+	/*
+	 public ArrayList();
+	 public ArrayList(Collection c);
+	*/
 	public static void main(String[] args) {
 		
 		ArrayList<Integer> al= new ArrayList<Integer>();
