@@ -1,5 +1,6 @@
 import java.util.*;
 
+//this class is for vector in collection 
 class vector{
 	
 	public static void main(String[] args) {
