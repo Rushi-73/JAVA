@@ -5,7 +5,7 @@ class vector{
 	
 	public static void main(String[] args) {
 		
-		Vector<Integer> v=new Vector<Integer>(2,3);
+		Vector<Integer> v=new Vector<Integer>(2,3);//public Vector(int capcity,int incremental capacity)
 		Scanner sc=new Scanner(System.in);
 		int a;
 		System.out.println("Enter values to check capacity");
@@ -14,7 +14,7 @@ class vector{
 			a=sc.nextInt();
 			v.addElement(a);
 		}
-		System.out.println("Capacity is "+v.capacity());//capacity is increased by incremental capacity that we pass in constructor
+		System.out.println("Capacity is "+v.capacity()); //capacity is increased by incremental capacity that we pass in constructor
 
 		Vector<Integer> v1=new Vector<Integer>();
 
