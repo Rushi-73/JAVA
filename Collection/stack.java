@@ -1,5 +1,6 @@
 import java.util.*;
 
+//this is class for Stack Collection 
 class stack
 {
 	public static void main(String[] args) {
