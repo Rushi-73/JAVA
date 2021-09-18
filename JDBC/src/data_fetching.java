@@ -13,6 +13,7 @@ import java.util.Scanner;
       Statement st=null;
        ResultSet rs=null;
          
+      //forming connection with database
   		 try(Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","2000");
         Scanner sc=new Scanner(System.in);)
        {
